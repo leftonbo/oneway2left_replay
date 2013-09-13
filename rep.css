@@ -1,0 +1,79 @@
+@charset   "UTF-8";
+
+
+body{
+	color : #ffffff;
+	font-size : 14px;
+	background-color : #202035;
+}
+.topic{
+	margin: 20px;
+	font-size : 25px;
+	background-color : #303045;
+	border-bottom:1px solid #ff4040;
+	border-right:2px solid #ff4040;
+	width:100%-40px;
+}
+.section{
+	margin: 20px;
+	font-size : 25px;
+	background-color : #303045;
+	border-bottom:1px solid #40ff40;
+	border-right:2px solid #40ff40;
+	width:100%-40px;
+}
+.notice{
+	margin: 5px 20px 5px 20px;
+	color : #aaaaaa;
+	padding:5px 10px 5px 10px;
+	vertical-align:middle;
+	border:1px solid #303080;
+}
+.ntop{
+	color : #aaaaff;
+	font-weight: bold;
+}
+.ncon{
+	color : #aaaaaa;
+	font-weight: bold;
+	padding-left:30px;
+	padding-right:30px;
+}
+.replay{
+	margin:auto;
+	width:90%;
+	border-right:1px solid #202035;
+	border-left:1px solid #202035;
+	border-top:1px solid #202035;
+}
+.name{
+	text-align:center;
+	width:175px;
+	padding:5px;
+	display:table-cell;
+	text-align:right;
+	font-weight: bold;
+}
+.say{
+	border-left:1px solid #779;
+	padding:5px;
+	vertical-align:middle;
+	display:table-cell;
+	width:100%-175px;
+}
+.set{
+	border-bottom:1px solid #334;
+	display:table;
+	table-layout:fixed;
+	width:100%;
+}
+.c0{color: #eeeeee;}	/* GM		*/
+.c1{color: #ee4060;}	/* Rapre	*/
+.c2{color: #A5C5A6;}	/* Utako	*/
+.c3{color: #ccaa34;}	/* Laog		*/
+.c4{color: #5cd014;}	/* Rinrai	*/
+.c5{color: #D33595;}	/* Liluls	*/
+.c6{color: #e6c900;}	/* Merry	*/
+.c7{color: #8ae4fb;}	/* Ziube	*/
+.c8{color: #47b2e4;}	/* Sil		*/
+.c9{color: #6979ff;}	/* Thuksafur	*/
