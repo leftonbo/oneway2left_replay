@@ -23,9 +23,6 @@
 </div></div>
 <div class='set'><div class='name c2 nc2'>最弱のウタコPL</div><div class='say c2 sc2'>ウタコ、開錠を取得したので職業が変化しましたー。　えーっと、闘技者、ですよね？
 </div></div>
-<div class='set'><div class='name c4 nc4'>かわいい鈴雷PL</div><div class='say c4 sc4'>【R00・成長報告】料理LV1 習得
-<br>【鈴雷・成長報告】MP+1　UP!
-</div></div>
 <div class='set'><div class='name c4 nc4'>かわいい鈴雷PL</div><div class='say c4 sc4'>転職はまだできんぞー
 </div></div>
 <div class='set'><div class='name c0 nc0'>一般のGM</div><div class='say c0 sc0'>クラチェンはまだ！
@@ -36,6 +33,9 @@
 </div></div>
 <div class='set'><div class='name c1 nc1'>普通のレープレPL</div><div class='say c1 sc1'>レープレ成長報告
 <br>HP +2　　4/18 →　6/20　　です
+</div></div>
+<div class='set'><div class='name c4 nc4'>かわいい鈴雷PL</div><div class='say c4 sc4'>【R00・成長報告】料理LV1 習得
+<br>【鈴雷・成長報告】MP+1　UP!
 </div></div>
 <div class='set'><div class='name c5 nc5'>頑丈なリルルスPL</div><div class='say c5 sc5'>どうしよ、貫通射覚えようかしら・・・　保留！！（
 </div></div>
@@ -55,6 +55,11 @@
 </div></div>
 <div class='set'><div class='name c5 nc5'>頑丈なリルルスPL</div><div class='say c5 sc5'>にゃおー！
 </div></div>
+</div>
+
+<br>
+<div id='s1' class='section'>1. </div>
+<div class='replay'>
 <div class='set'><div class='name c0 nc0'>一般のGM</div><div class='say c0 sc0'>あらすじ。
 <br>・進む！
 <br>・虫に追われている市民！
@@ -65,6 +70,7 @@
 <div class='set'><div class='name c0 nc0'>一般のGM</div><div class='say c0 sc0'>現在地点はMapの★
 <br>時刻は18：00の夕方（夜まであと2時間）　12時間歩いた後です
 </div></div>
+<!-- ★ここにMAP -->
 <div class='set'><div class='name c0 nc0'>一般のGM</div><div class='say c0 sc0'>ここで休息しますか？
 </div></div>
 <div class='set'><div class='name c4 nc4'>かわいい鈴雷PL</div><div class='say c4 sc4'>また前回みたいにちょっと歩くかな？（
@@ -85,7 +91,7 @@
 </div></div>
 <div class='set'><div class='name c4 nc4'>かわいい鈴雷PL</div><div class='say c4 sc4'>進んじゃうかー　前回の判定で使ったSVって有効なのかな（
 </div></div>
-<div class='set'><div class='name c0 nc0'>一般のGM</div><div class='say c0 sc0'>有効ですー　確かジウベが荒地・穏やか、ラフールが穏やかをウケトッタはず
+<div class='set'><div class='name c0 nc0'>一般のGM</div><div class='say c0 sc0'>有効ですー　確かジウベが荒地・穏やか、ラフールが穏やかを受け取ったはず
 </div></div>
 <div class='set'><div class='name c2 nc2'>最弱のウタコPL</div><div class='say c2 sc2'>あ・・・思い出したぞ・・・　まだ　最弱　だったっけか・・・
 </div></div>
@@ -95,6 +101,7 @@
 </div></div>
 <div class='set'><div class='name c2 nc2'>最弱のウタコPL</div><div class='say c2 sc2'>さて、移動か
 </div></div>
+<div class='set'><hr></div><!-- line -->
 <div class='set'><div class='name c0 nc0'>一般のGM</div><div class='say c0 sc0'>では一行はさらに先に進む・・・
 </div></div>
 <div class='set'><div class='name c0 nc0'>一般のGM</div><div class='say c0 sc0'>更に4時間歩くと、太陽は20：00に沈む
@@ -112,6 +119,7 @@
 </div></div>
 <div class='set'><div class='name c4 nc4'>かわいい鈴雷PL</div><div class='say c4 sc4'>ぜーふ
 </div></div>
+<div class='set'><hr></div><!-- line -->
 <div class='set'><div class='name c0 nc0'>一般のGM</div><div class='say c0 sc0'>では疲労判定です
 <br>【強行1/1】【穏やか0/0】【荒野9/4】で判定！（目標10ダメージ5）
 </div></div>
@@ -123,21 +131,21 @@
 <div class='set'><div class='name c0 nc0'>一般のGM</div><div class='say c0 sc0'>ではダイスどうぞ！
 </div></div>
 <div class='set'><div class='name c4 nc4'>かわいい鈴雷</div><div class='say c4 sc4'>【鈴雷・疲労判定】
-<br>10 + 2D6 [3,4] + 1 = <span class='dice'>18</span> (&gt;=10)　→　+8成功
+<br>10 + 2D6 [3,4] + 1 = <span class='dice'>18</span> (&gt;=10)　→　<span class='dice_ok'>セーフ！</span>
 <br>【R00・疲労判定】
-<br>4 + 2D6 [5,5] + 1 + 2 + 2 = <span class='dice'>19</span> (&gt;=10)　→　+9成功
+<br>4 + 2D6 [5,5] + 1 + 2 + 2 = <span class='dice'>19</span> (&gt;=10)　→　<span class='dice_ok'>セーフ！</span>
 </div></div>
 <div class='set'><div class='name c4 nc4'>かわいい鈴雷PL</div><div class='say c4 sc4'>R00、ダイス良かったw
 </div></div>
-<div class='set'><div class='name c7 nc7'>普通のジウベ(代GM)</div><div class='say c7 sc7'>ジウベ 疲労判定 : 2 + 2D6 [4,6] + 2 + 2 = <span class='dice'>16</span> (&gt;=10)　→　+6成功
+<div class='set'><div class='name c7 nc7'>普通のジウベ(代GM)</div><div class='say c7 sc7'>ジウベ 疲労判定 : 2 + 2D6 [4,6] + 2 + 2 = <span class='dice'>16</span> (&gt;=10)　→　<span class='dice_ok'>セーフ！</span>
 </div></div>
-<div class='set'><div class='name c9 nc9'>強そうなシル</div><div class='say c9 sc9'>シル 疲労判定 : 3 + 2D6 [1,3] + 3 + 2 = <span class='dice'>12</span> (&gt;=10)　→　+2成功
+<div class='set'><div class='name c9 nc9'>強そうなシル</div><div class='say c9 sc9'>シル 疲労判定 : 3 + 2D6 [1,3] + 3 + 2 = <span class='dice'>12</span> (&gt;=10)　→　<span class='dice_ok'>セーフ！</span>
 </div></div>
-<div class='set'><div class='name c2 nc2'>最弱のウタコ</div><div class='say c2 sc2'>※最弱により出目4以下の場合ファンブル : 2D6 [4,5] + 10 = <span class='dice'>19</span> (&gt;=10)　→　+9成功
+<div class='set'><div class='name c14 nc14'>悩みのラフール</div><div class='say c14 sc14'>ラフール 疲労判定 : 3 + 2D6 [5,2] + 3 + 2 = <span class='dice'>15</span> (&gt;=10)　→　<span class='dice_ok'>セーフ！</span>
+</div></div>
+<div class='set'><div class='name c2 nc2'>最弱のウタコ</div><div class='say c2 sc2'>※最弱により出目4以下の場合ファンブル : 2D6 [4,5] + 10 = <span class='dice'>19</span> (&gt;=10)　→　<span class='dice_ok'>セーフ！</span>
 </div></div>
 <div class='set'><div class='name c4 nc4'>かわいい鈴雷PL</div><div class='say c4 sc4'>まだ、大丈夫
-</div></div>
-<div class='set'><div class='name c14 nc14'>悩みのラフール</div><div class='say c14 sc14'>ラフール 疲労判定 : 3 + 2D6 [5,2] + 3 + 2 = <span class='dice'>15</span> (&gt;=10)　→　+5成功
 </div></div>
 <div class='set'><div class='name c2 nc2'>最弱のウタコPL</div><div class='say c2 sc2'>そ、そろそろ消費してえ・・・ｗ
 </div></div>
@@ -145,9 +153,9 @@
 </div></div>
 <div class='set'><div class='name c0 nc0'>一般のGM</div><div class='say c0 sc0'>リルが一旦離脱みたいなので振っておこう
 </div></div>
-<div class='set'><div class='name c5 nc5'>頑丈なリルルス(代GM)</div><div class='say c5 sc5'>リルルス 疲労判定 : 7 + 2D6 [3,5] = <span class='dice'>15</span> (&gt;=10)　→　+5成功
+<div class='set'><div class='name c5 nc5'>頑丈なリルルス(代GM)</div><div class='say c5 sc5'>リルルス 疲労判定 : 7 + 2D6 [3,5] = <span class='dice'>15</span> (&gt;=10)　→　<span class='dice_ok'>セーフ！</span>
 </div></div>
-<div class='set'><div class='name c1 nc1'>普通のレープレ</div><div class='say c1 sc1'>10 + 2D6 [2,2] = <span class='dice'>14</span>
+<div class='set'><div class='name c1 nc1'>普通のレープレ</div><div class='say c1 sc1'>10 + 2D6 [2,2] = <span class='dice'>14</span> (&gt;=10)　→　<span class='dice_ok'>セーフ！</span>
 </div></div>
 <div class='set'><div class='name c4 nc4'>かわいい鈴雷PL</div><div class='say c4 sc4'>これがウタコさんの方でなくてよかった（
 </div></div>
@@ -155,6 +163,7 @@
 </div></div>
 <div class='set'><div class='name c4 nc4'>かわいい鈴雷PL</div><div class='say c4 sc4'>せ～ふ
 </div></div>
+<div class='set'><hr></div><!-- line -->
 <div class='set'><div class='name c0 nc0'>一般のGM</div><div class='say c0 sc0'>現在時刻は22：00　特に意見なければここで休憩に入りましょう
 </div></div>
 <div class='set'><div class='name c4 nc4'>かわいい鈴雷PL</div><div class='say c4 sc4'>無理しすぎはよくないもんねッ　やすもー
@@ -201,58 +210,46 @@
 </div></div>
 <div class='set'><div class='name c2 nc2'>最弱のウタコPL</div><div class='say c2 sc2'>おかですー
 </div></div>
+<div class='set'><hr></div><!-- line -->
 <div class='set'><div class='name c0 nc0'>一般のGM</div><div class='say c0 sc0'>狩り　まず鈴雷とジウベのペアからー
 </div></div>
 <div class='set'><div class='name c4 nc4'>かわいい鈴雷PL</div><div class='say c4 sc4'>OK~
 </div></div>
-<div class='set'><div class='name c4 nc4'>かわいい鈴雷PL</div><div class='say c4 sc4'>ジウベさんの判定はよくGMにしてもらってたが今回もそれでOK？
-</div></div>
-<div class='set'><div class='name c0 nc0'>一般のGM</div><div class='say c0 sc0'>じゃあこっちでやるー
-</div></div>
-<div class='set'><div class='name c4 nc4'>かわいい鈴雷PL</div><div class='say c4 sc4'>ういうい
-</div></div>
-<div class='set'><div class='name c0 nc0'>一般のGM</div><div class='say c0 sc0'>しまった目標値忘れてあ
+<div class='set'><div class='name c0 nc0'>一般のGM</div><div class='say c0 sc0'>しまった目標値忘れてた
 <br>【少し暗い1】【穏やか0】【荒地9】＝10です
 </div></div>
-<div class='set'><div class='name c7 nc7'>普通のジウベ(代GM)</div><div class='say c7 sc7'>ジウベが獲物探す : 2D6 [6,5] + 9 = <span class='dice'>20</span> (&gt;=10)　→　+10成功
-</div></div>
-<div class='set'><div class='name c0 nc0'>一般のGM</div><div class='say c0 sc0'>7食分を見つけた！
+<div class='set'><div class='name c7 nc7'>普通のジウベ(代GM)</div><div class='say c7 sc7'>ジウベが獲物探す : 2D6 [6,5] + 9 = <span class='dice'>20</span> (&gt;=10)　→　<span class='dice_ok'>+10成功：7食分！</span>
 </div></div>
 <div class='set'><div class='name c4 nc4'>かわいい鈴雷PL</div><div class='say c4 sc4'>強い
 </div></div>
 <div class='set'><div class='name c4 nc4'>かわいい鈴雷</div><div class='say c4 sc4'>【狩り・獲物強さ】
 <br>10 + 1D6 [2] = <span class='dice'>12</span>
-</div></div>
-<div class='set'><div class='name c4 nc4'>かわいい鈴雷PL</div><div class='say c4 sc4'>（これでいいのよね獲物強さ）
-</div></div>
-<div class='set'><div class='name c0 nc0'>一般のGM</div><div class='say c0 sc0'>ですー
-</div></div>
-<div class='set'><div class='name c4 nc4'>かわいい鈴雷</div><div class='say c4 sc4'>【狩り・獲物捕獲】
-<br>9 + 2D6 [3,1] + 2 + 1 = <span class='dice'>16</span> (&gt;=12)　→　+4成功
+<br>【狩り・獲物捕獲】
+<br>9 + 2D6 [3,1] + 2 + 1 = <span class='dice'>16</span> (&gt;=12)　→　<span class='dice_ok'>成功</span>
 </div></div>
 <div class='set'><div class='name c0 nc0'>一般のGM</div><div class='say c0 sc0'>捉えた！
 </div></div>
 <div class='set'><div class='name c4 nc4'>かわいい鈴雷PL</div><div class='say c4 sc4'>ファンブル以外なら行けるという余力
 </div></div>
-<div class='set'><div class='name c0 nc0'>一般のGM</div><div class='say c0 sc0'>次にラフールが狩り判定です！
-</div></div>
 <div class='set'><div class='name c5 nc5'>頑丈なリルルスPL</div><div class='say c5 sc5'>すげえや・・・（
 </div></div>
-<div class='set'><div class='name c14 nc14'>悩みのラフール</div><div class='say c14 sc14'>ラフール みつかるかな？ : 2D6 [2,2] + 1 + 3 = <span class='dice'>8</span> (&gt;=10)　→　-2失敗
+<div class='set'><hr></div><!-- line -->
+<div class='set'><div class='name c0 nc0'>一般のGM</div><div class='say c0 sc0'>次にラフールが狩り判定です！
+</div></div>
+<div class='set'><div class='name c14 nc14'>悩みのラフール</div><div class='say c14 sc14'>ラフール みつかるかな？ : 2D6 [2,2] + 1 + 3 = <span class='dice'>8</span> (&gt;=10)　→　<span class='dice_ng'>失敗</span>
 </div></div>
 <div class='set'><div class='name c0 nc0'>一般のGM</div><div class='say c0 sc0'>何も見つからなかった！
 </div></div>
+<div class='set'><hr></div><!-- line -->
 <div class='set'><div class='name c0 nc0'>一般のGM</div><div class='say c0 sc0'>次にリルルスが狩り判定です
 </div></div>
 <div class='set'><div class='name c5 nc5'>頑丈なリルルスPL</div><div class='say c5 sc5'>ういおー
 </div></div>
-<div class='set'><div class='name c5 nc5'>頑丈なリルルス</div><div class='say c5 sc5'>獲物探索 : 3 + 2D6 [5,2] = <span class='dice'>10</span>
+<div class='set'><div class='name c5 nc5'>頑丈なリルルス</div><div class='say c5 sc5'>獲物探索 : 3 + 2D6 [5,2] = <span class='dice'>10</span>　→　<span class='dice_ok'>+-0成功：2食分！</span>
 <br>獲物強さ : 10 + 1D6 [5] = <span class='dice'>15</span>
 </div></div>
-<div class='set'><div class='name c0 nc0'>一般のGM</div><div class='say c0 sc0'>2食分を見つけた！
-</div></div>
 <div class='set'><div class='name c5 nc5'>頑丈なリルルス</div><div class='say c5 sc5'>「そこっ！」
-<br>ハンティング : 8 + 2D6 [6,1] + 4 = <span class='dice'>19</span>
+<br>ハンティング : 8 + 2D6 [6,1] + 4 = <span class='dice'>19</span> (&gt;=15)　→　<span class='dice_ok'>成功</span>
 <br>（消費した矢の本数） : 1D3 [2] = <span class='dice'>2</span>
 </div></div>
 <div class='set'><div class='name c0 nc0'>一般のGM</div><div class='say c0 sc0'>とらえた！
@@ -261,11 +258,12 @@
 </div></div>
 <div class='set'><div class='name c4 nc4'>かわいい鈴雷PL</div><div class='say c4 sc4'>いい感じで獲物捕獲数が伸びるー
 </div></div>
+<div class='set'><hr></div><!-- line -->
 <div class='set'><div class='name c0 nc0'>一般のGM</div><div class='say c0 sc0'>では最後にウタコの狩りのターンです！
 </div></div>
 <div class='set'><div class='name c2 nc2'>最弱のウタコPL</div><div class='say c2 sc2'>はいはいー
 </div></div>
-<div class='set'><div class='name c2 nc2'>最弱のウタコ</div><div class='say c2 sc2'>獲物探索 : 3 + 2D6 [2,6] = <span class='dice'>11</span>
+<div class='set'><div class='name c2 nc2'>最弱のウタコ</div><div class='say c2 sc2'>獲物探索 : 3 + 2D6 [2,6] = <span class='dice'>11</span> (&gt;=10)　→　<span class='dice_ok'>+1成功：2食分！</span>
 <br>獲物強さ : 10 + 1D6 [6] = <span class='dice'>16</span>
 </div></div>
 <div class='set'><div class='name c2 nc2'>最弱のウタコPL</div><div class='say c2 sc2'>獲物強さ・・・
@@ -274,7 +272,7 @@
 </div></div>
 <div class='set'><div class='name c4 nc4'>かわいい鈴雷PL</div><div class='say c4 sc4'>今日最大の獲物の強さだ
 </div></div>
-<div class='set'><div class='name c2 nc2'>最弱のウタコ</div><div class='say c2 sc2'>7 + 2D6 [4,3] = <span class='dice'>14</span>
+<div class='set'><div class='name c2 nc2'>最弱のウタコ</div><div class='say c2 sc2'>7 + 2D6 [4,3] = <span class='dice'>14</span> (&gt;=16)　→　<span class='dice_ng'>失敗</span>
 </div></div>
 <div class='set'><div class='name c0 nc0'>一般のGM</div><div class='say c0 sc0'>しかし逃してしまった！
 </div></div>
@@ -284,12 +282,14 @@
 </div></div>
 <div class='set'><div class='name c2 nc2'>最弱のウタコ</div><div class='say c2 sc2'>「あっちゃ・・・！あぁー今日の晩御飯がぁ・・・」
 </div></div>
+<div class='set'><hr></div><!-- line -->
 <div class='set'><div class='name c0 nc0'>一般のGM</div><div class='say c0 sc0'>では最後(2)にシルが食べ物を探す判定
 </div></div>
-<div class='set'><div class='name c9 nc9'>強そうなシル</div><div class='say c9 sc9'>シル 食べ物を探す : 2D6 [1,4] + 4 + 3 = <span class='dice'>12</span> (&gt;=10)　→　+2成功
+<div class='set'><div class='name c9 nc9'>強そうなシル</div><div class='say c9 sc9'>シル 食べ物を探す : 2D6 [1,4] + 4 + 3 = <span class='dice'>12</span> (&gt;=10)　→　<span class='dice_ok'>+2成功：1食分</span>
 </div></div>
 <div class='set'><div class='name c0 nc0'>一般のGM</div><div class='say c0 sc0'>1食分を見つけてきたようです
 </div></div>
+<div class='set'><hr></div><!-- line -->
 <div class='set'><div class='name c0 nc0'>一般のGM</div><div class='say c0 sc0'>というわけで探索判定終わり　見つけた食べ物は6+2+1=9食分です！
 </div></div>
 <div class='set'><div class='name c5 nc5'>頑丈なリルルスPL</div><div class='say c5 sc5'>一応間に合ってる！
@@ -340,6 +340,7 @@
 </div></div>
 <div class='set'><div class='name c4 nc4'>かわいい鈴雷PL</div><div class='say c4 sc4'>まぁあがったしよかよか
 </div></div>
+<div class='set'><hr></div><!-- line -->
 <div class='set'><div class='name c9 nc9'>強そうなシル</div><div class='say c9 sc9'>「ごはんだ！いただきまーす！」
 </div></div>
 <div class='set'><div class='name c15 nc15'>優秀なR00</div><div class='say c15 sc15'>「…うむ、食え。多分うまくできた」
@@ -363,8 +364,7 @@
 <div class='set'><div class='name c0 nc0'>一般のGM</div><div class='say c0 sc0'>了解ー
 </div></div>
 <div class='set'><div class='name c0 nc0'>一般のGM</div><div class='say c0 sc0'>じゃあ他にロール無ければ休息判定入りますかー
-</div></div>
-<div class='set'><div class='name c0 nc0'>一般のGM</div><div class='say c0 sc0'>料理効果で+3回復します
+<br>料理効果で+3回復します
 </div></div>
 <div class='set'><div class='name c4 nc4'>かわいい鈴雷PL</div><div class='say c4 sc4'>じゃあ鈴は定位置に行ったとだけ（（
 </div></div>
@@ -372,13 +372,13 @@
 </div></div>
 <div class='set'><div class='name c0 nc0'>一般のGM</div><div class='say c0 sc0'>シルもジウベと寝るか
 </div></div>
-<div class='set'><div class='name c0 nc0'>一般のGM</div><div class='say c0 sc0'>ジウベ、シル、ラフールら既に全回復なのでダイス略
-</div></div>
 <div class='set'><div class='name c5 nc5'>頑丈なリルルスPL</div><div class='say c5 sc5'>リルルスはなんとなくルーさんに歩み寄ってモフモフしてみたりしてます
 </div></div>
-<div class='set'><div class='name c2 nc2'>最弱のウタコPL</div><div class='say c2 sc2'>あ、寝る前にちょっとロールで野営地隠したりとかって出来ますかね？
-</div></div>
 <div class='set'><div class='name c15 nc15'>優秀なR00</div><div class='say c15 sc15'>「…ん、ここで寝たいなら、好きにしろ」　うつ伏せで寝る姿勢とりリルルスに尾を軽くかける
+</div></div>
+<div class='set'><div class='name c5 nc5'>頑丈なリルルス</div><div class='say c5 sc5'>「にゃ、もふもふ・・・　・・・暖かいにゃ、ごろごろごろ♪」（スリスリしながら、こちらも寝る体勢。）
+</div></div>
+<div class='set'><div class='name c2 nc2'>最弱のウタコPL</div><div class='say c2 sc2'>あ、寝る前にちょっとロールで野営地隠したりとかって出来ますかね？
 </div></div>
 <div class='set'><div class='name c5 nc5'>頑丈なリルルスPL</div><div class='say c5 sc5'>む
 </div></div>
@@ -387,8 +387,6 @@
 <div class='set'><div class='name c0 nc0'>一般のGM</div><div class='say c0 sc0'>隠してもいいよー　休息回復はその後でOK
 </div></div>
 <div class='set'><div class='name c2 nc2'>最弱のウタコPL</div><div class='say c2 sc2'>了解ー
-</div></div>
-<div class='set'><div class='name c5 nc5'>頑丈なリルルス</div><div class='say c5 sc5'>「にゃ、もふもふ・・・　・・・暖かいにゃ、ごろごろごろ♪」（スリスリしながら、こちらも寝る体勢。）
 </div></div>
 <div class='set'><div class='name c2 nc2'>最弱のウタコ</div><div class='say c2 sc2'>では【隠れる】で野営地を隠してみます。　mp消費-2　→mp5
 <br>2D6 [6,4] + 7 + 2 = <span class='dice'>19</span>
@@ -407,19 +405,25 @@
 </div></div>
 <div class='set'><div class='name c0 nc0'>一般のGM</div><div class='say c0 sc0'>どっか・・・・
 </div></div>
+<div class='set'><div class='name c5 nc5'>頑丈なリルルスPL</div><div class='say c5 sc5'>どっかｗｗ
+</div></div>
+<div class='set'><hr></div><!-- line -->
 <div class='set'><div class='name c0 nc0'>一般のGM</div><div class='say c0 sc0'>じゃあ休息判定振ってくれ！料理効果+3
 </div></div>
-<div class='set'><div class='name c5 nc5'>頑丈なリルルスPL</div><div class='say c5 sc5'>どっかｗｗ
+<div class='set'><div class='name c0 nc0'>一般のGM</div><div class='say c0 sc0'>ジウベ、シル、ラフールら既に全回復なのでダイス略
 </div></div>
 <div class='set'><div class='name c1 nc1'>普通のレープレ</div><div class='say c1 sc1'>レープレ 休息判定
 <br>HP : 3D6 [4,2,1] + 3 = <span class='dice'>10</span>
 <br>MP MAXなので省略
 </div></div>
+<div class='set'><div class='name c1 nc1'>普通のレープレPL</div><div class='say c1 sc1'>足りねぇ・・・ｗ
+</div></div>
+<div class='set'><div class='name c1 nc1'>普通のレープレPL</div><div class='say c1 sc1'>えっと
+<br>6/20　→　16/20　です全快できず
+</div></div>
 <div class='set'><div class='name c4 nc4'>かわいい鈴雷</div><div class='say c4 sc4'>【R00・休息判定】
 <br>HP : 2D6 [4,5] + 3 = <span class='dice'>12</span>
 <br>MP : 3D6 [2,5,1] + 3 = <span class='dice'>11</span>
-</div></div>
-<div class='set'><div class='name c1 nc1'>普通のレープレPL</div><div class='say c1 sc1'>足りねぇ・・・ｗ
 </div></div>
 <div class='set'><div class='name c5 nc5'>頑丈なリルルス</div><div class='say c5 sc5'>HP : 2D6 [1,4] + 3 = <span class='dice'>8</span>
 <br>MP : 3D6 [2,1,2] + 3 = <span class='dice'>8</span>
@@ -437,20 +441,9 @@
 </div></div>
 <div class='set'><div class='name c4 nc4'>かわいい鈴雷PL</div><div class='say c4 sc4'>あ、MPのやつ１・３だけど最弱にかかるん？
 </div></div>
-<div class='set'><div class='name c5 nc5'>頑丈なリルルスPL</div><div class='say c5 sc5'>リルルスは全回復。
-</div></div>
-<div class='set'><div class='name c4 nc4'>かわいい鈴雷</div><div class='say c4 sc4'>【鈴雷・休息判定】
-<br>HP : 2D6 [1,3] + 3 = <span class='dice'>7</span>
-<br>MP : 2D6 [4,4] + 3 = <span class='dice'>11</span>
-</div></div>
-<div class='set'><div class='name c0 nc0'>一般のGM</div><div class='say c0 sc0'>おおっと　ここだと値のみでクリファン関係ない/量でダイス数変わるから入らない
-</div></div>
-<div class='set'><div class='name c4 nc4'>かわいい鈴雷PL</div><div class='say c4 sc4'>鈴雷もHP・MP全回復
+<div class='set'><div class='name c0 nc0'>一般のGM</div><div class='say c0 sc0'>ここだと値のみでクリファン関係ない/MP量でダイス数変わって面倒だから入らないってことで！
 </div></div>
 <div class='set'><div class='name c2 nc2'>最弱のウタコPL</div><div class='say c2 sc2'>了解ですー　ってなると、hpmp共に全回復かな、反映させておきます。
-</div></div>
-<div class='set'><div class='name c1 nc1'>普通のレープレPL</div><div class='say c1 sc1'>えっと
-<br>6/20　→　16/20　です全快できず
 </div></div>
 <div class='set'><div class='name c0 nc0'>一般のGM</div><div class='say c0 sc0'>ってかファンブル扱いになっても全快か（
 </div></div>
@@ -458,65 +451,89 @@
 </div></div>
 <div class='set'><div class='name c2 nc2'>最弱のウタコPL</div><div class='say c2 sc2'>ファンブルで全回復ってのもヤだなあ（
 </div></div>
+<div class='set'><div class='name c5 nc5'>頑丈なリルルスPL</div><div class='say c5 sc5'>リルルスは全回復。
+</div></div>
+<div class='set'><div class='name c4 nc4'>かわいい鈴雷</div><div class='say c4 sc4'>【鈴雷・休息判定】
+<br>HP : 2D6 [1,3] + 3 = <span class='dice'>7</span>
+<br>MP : 2D6 [4,4] + 3 = <span class='dice'>11</span>
+</div></div>
+<div class='set'><div class='name c4 nc4'>かわいい鈴雷PL</div><div class='say c4 sc4'>鈴雷もHP・MP全回復
+</div></div>
 <div class='set'><div class='name c0 nc0'>一般のGM</div><div class='say c0 sc0'>さて全員振ったのでちょっとここで謎判定
 </div></div>
 <div class='set'><div class='name c0 nc0'>一般のGM</div><div class='say c0 sc0'>D66 [4,2] = <span class='dice'>42</span>
 </div></div>
 <div class='set'><div class='name c0 nc0'>一般のGM</div><div class='say c0 sc0'>特になし
 </div></div>
-<div class='set'><div class='name c0 nc0'>一般のGM</div><div class='say c0 sc0'>＝＝＝＝
-</div></div>
 <div class='set'><div class='name c2 nc2'>最弱のウタコPL</div><div class='say c2 sc2'>（ほっ）
 </div></div>
+<div class='set'><hr></div><!-- line -->
 <div class='set'><div class='name c0 nc0'>一般のGM</div><div class='say c0 sc0'>じゃあ突然だけどここで二つ名ダイスを振ってもらう！
 </div></div>
 <div class='set'><div class='name c0 nc0'>一般のGM</div><div class='say c0 sc0'>全員2d6おねがいしますー！
 </div></div>
-<div class='set'><div class='name c2 nc2'>最弱のウタコ</div><div class='say c2 sc2'>2D6 [5,5] = <span class='dice'>10</span>
+<div class='set'><div class='name'></div><div class='say'>
+<div class='notice'><div class='ntop'>【二つ名】について</div><div class='ncon'>シナリオの各区切れで二つ名ダイスを振ります！<br>
+　　12 <b>最強の</b> 　2回だけ好きな出目に+2。<br>
+　　11 <b>優秀な</b>　　1回だけ好きな出目に+2。<br>
+　　10 <b>強そうな</b>　1回だけ好きな出目に+2。<br>
+　　9　<b>凄く硬い</b>　1回だけ任意のダメージを-2。(以上の効果は判定後でも適用可)<br>
+　　8　<b>ポジティブ系</b><br>
+　　7　<b>何もなし</b><br>
+　　6　<b>ネガティブ系</b><br>
+　　5　<b>エッチな</b> 　エッチになる。<br>
+　　4　<b>ドＭな</b> 　　ダメージを受けると歓喜の声を上げる。<br>
+　　3　<b>弱そうな</b>　「目標値と同じ値の判定」が1回だけ自動で-1失敗扱い。<br>
+　　2　<b>最弱の</b>　　「2D6の出目が4以下」になると1回だけ自動でファンブル。超危険。<br>
+</div></div></div></div>
+<div class='set'><div class='name c2 nc2'>ウタコ</div><div class='say c2 sc2'>2D6 [5,5] = <span class='dice'>10</span>
 </div></div>
-<div class='set'><div class='name c4 nc4'>かわいい鈴雷</div><div class='say c4 sc4'>【鈴雷・二つ名判定】
+<div class='set'><div class='name c2 nc2'>ウタコPL</div><div class='say c2 sc2'>最弱な→強そうな
+</div></div>
+<div class='set'><div class='name c4 nc4'>鈴雷</div><div class='say c4 sc4'>【鈴雷・二つ名判定】
 <br>2D6 [1,5] = <span class='dice'>6</span>
 <br>【R00・二つ名判定】
 <br>2D6 [6,6] = <span class='dice'>12</span> <span class='dice_crt'>＞ ﾄﾞﾔｱｱｱｱｱ ＜</span>
 </div></div>
-<div class='set'><div class='name c4 nc4'>かわいい鈴雷PL</div><div class='say c4 sc4'>！？
+<div class='set'><div class='name c4 nc4'>鈴雷PL</div><div class='say c4 sc4'>！？
 </div></div>
-<div class='set'><div class='name c0 nc0'>一般のGM</div><div class='say c0 sc0'>ジウベ : 2D6 [3,4] = <span class='dice'>7</span>
+<div class='set'><div class='name c0 nc0'>GM</div><div class='say c0 sc0'>ジウベ : 2D6 [3,4] = <span class='dice'>7</span>
 <br>シル : 2D6 [1,4] = <span class='dice'>5</span>
 <br>ラフール : 2D6 [6,4] = <span class='dice'>10</span>
 <br>.
 <br>GM : 2D6 [3,4] = <span class='dice'>7</span>
 </div></div>
-<div class='set'><div class='name c16 nc16'>普通のベーグル(代GM)</div><div class='say c16 sc16'>ベーグル 二つ名 : 2D6 [1,1] = <span class='dice'>2</span> <span class='dice_fnv'>＞ ｲﾔｱｧｧｧｧｧ ＜</span>
+<div class='set'><div class='name c16 nc16'>ベーグル(代GM)</div><div class='say c16 sc16'>ベーグル 二つ名 : 2D6 [1,1] = <span class='dice'>2</span> <span class='dice_fnv'>＞ ｲﾔｱｧｧｧｧｧ ＜</span>
 </div></div>
-<div class='set'><div class='name c0 nc0'>一般のGM</div><div class='say c0 sc0'>ｱｱｱｯ
+<div class='set'><div class='name c0 nc0'>GM</div><div class='say c0 sc0'>ｱｱｱｯ
 </div></div>
-<div class='set'><div class='name c5 nc5'>頑丈なリルルスPL</div><div class='say c5 sc5'>ベーグルうううううｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗ
+<div class='set'><div class='name c5 nc5'>リルルスPL</div><div class='say c5 sc5'>ベーグルうううううｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗ
 </div></div>
-<div class='set'><div class='name c1 nc1'>普通のレープレ</div><div class='say c1 sc1'>2D6 [2,2] = <span class='dice'>4</span>
+<div class='set'><div class='name c1 nc1'>レープレ</div><div class='say c1 sc1'>2D6 [2,2] = <span class='dice'>4</span>
 </div></div>
-<div class='set'><div class='name c2 nc2'>最弱のウタコPL</div><div class='say c2 sc2'>最弱な→強そうな
+<div class='set'><div class='name c1 nc1'>レープレPL</div><div class='say c1 sc1'>ドMや・・・　レープレちゃんドMかいな・・・
 </div></div>
-<div class='set'><div class='name c5 nc5'>頑丈なリルルス</div><div class='say c5 sc5'>今日のリルルス : 2D6 [1,2] = <span class='dice'>3</span>
+<div class='set'><div class='name c5 nc5'>リルルス</div><div class='say c5 sc5'>今日のリルルス : 2D6 [1,2] = <span class='dice'>3</span>
 </div></div>
-<div class='set'><div class='name c5 nc5'>頑丈なリルルスPL</div><div class='say c5 sc5'>あっ。
+<div class='set'><div class='name c5 nc5'>リルルスPL</div><div class='say c5 sc5'>あっ。
 </div></div>
-<div class='set'><div class='name c1 nc1'>普通のレープレPL</div><div class='say c1 sc1'>ドMや・・・　レープレちゃんドMかいな・・・
-</div></div>
-<div class='set'><div class='name c4 nc4'>かわいい鈴雷PL</div><div class='say c4 sc4'>【切ない】鈴雷
+<div class='set'><div class='name c4 nc4'>鈴雷PL</div><div class='say c4 sc4'>【切ない】鈴雷
 <br>【最強の】R00
 </div></div>
-<div class='set'><div class='name c0 nc0'>一般のGM</div><div class='say c0 sc0'>【普通の】ジウベ　【エッチな】シル　【強そうな】ラフール　【いつもおの】GM
+<div class='set'><div class='name c0 nc0'>GM</div><div class='say c0 sc0'>【普通の】ジウベ　【エッチな】シル　【強そうな】ラフール　【いつもおの】GM
 </div></div>
-<div class='set'><div class='name c5 nc5'>貧弱なリルルスPL</div><div class='say c5 sc5'>【貧弱な】リルルス・・・
+<div class='set'><div class='name c5 nc5'>リルルスPL</div><div class='say c5 sc5'>【貧弱な】リルルス・・・
 </div></div>
-<div class='set'><div class='name c1 nc1'>ドMのレープレPL</div><div class='say c1 sc1'>【ドMの】レープレ
+<div class='set'><div class='name c1 nc1'>レープレPL</div><div class='say c1 sc1'>【ドMの】レープレ
 </div></div>
-<div class='set'><div class='name c0 nc0'>いつもおのGM</div><div class='say c0 sc0'>では全員振ったようなので先に進む
+<div class='set'><div class='name c0 nc0'>GM</div><div class='say c0 sc0'>では全員振ったようなので先に進む
 </div></div>
-<div class='set'><div class='name c0 nc0'>いつもおのGM</div><div class='say c0 sc0'>＝＝＝＝
-</div></div>
-<div class='set'><div class='name c0 nc0'>いつもおのGM</div><div class='say c0 sc0'>= Day 15　7:00 =
+</div>
+
+<br>
+<div id='s2' class='section'>2. </div>
+<div class='replay'>
+<div class='set'><div class='name c0 nc0'></div><div class='say c0 sc0'>= Day 15　7:00 =
 </div></div>
 <div class='set'><div class='name c0 nc0'>いつもおのGM</div><div class='say c0 sc0'>2:雨 3-12:晴れ : 2D6 [2,5] = <span class='dice'>7</span>
 </div></div>
@@ -565,6 +582,7 @@
 </div></div>
 <div class='set'><div class='name c0 nc0'>いつもおのGM</div><div class='say c0 sc0'>さて、ルートとしてはおそらく o を通って？2、？3地点をとおってみることになるはず
 </div></div>
+<!-- ★ここにMAP -->
 <div class='set'><div class='name c4 nc4'>切ない鈴雷PL</div><div class='say c4 sc4'>だねー
 </div></div>
 <div class='set'><div class='name c5 nc5'>貧弱なリルルスPL</div><div class='say c5 sc5'>うむ、余裕があるしなるべく多く回ってみたい。
@@ -582,10 +600,6 @@
 </div></div>
 <div class='set'><div class='name c0 nc0'>いつもおのGM</div><div class='say c0 sc0'>では一行は山の少し険しい道を進み始める
 <br>高所ゆえにサウナとはならないが、それでも暑い
-</div></div>
-<div class='set'><div class='name c0 nc0'>いつもおのGM</div><div class='say c0 sc0'>1D5 [4] = <span class='dice'>4</span>
-</div></div>
-<div class='set'><div class='name c0 nc0'>いつもおのGM</div><div class='say c0 sc0'>あっしまった不在だ
 </div></div>
 <div class='set'><div class='name c0 nc0'>いつもおのGM</div><div class='say c0 sc0'>1D4 [1] = <span class='dice'>1</span>
 </div></div>
